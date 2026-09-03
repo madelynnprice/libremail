@@ -18,7 +18,7 @@ example body
 
 example response
 ```
-"Message": "Your secret key is voEEM7.6n3hB22eH note it down and do not lose it, otherwise you will lose access to further account actions (your previous mail will be accessible on your local device still)"
+"Message": "Your secret key is voEEM7.6n3hB22eH note it down and do not lose it...."
 ```
 
 ### POST `{endpoint}/sendmail`
