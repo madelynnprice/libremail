@@ -47,13 +47,11 @@ example body
 
 example response
 ```
-[
-{
+[{
     "title": "important discussions",
     "contents": "what's up",
     "author": "john doe"
-}
-]
+}]
 ```
 
 </details>
