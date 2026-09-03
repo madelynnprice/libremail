@@ -13,31 +13,25 @@ has lots of security issues don't use this seriously lmfao
 
 example body
 ```
-{
-	"username": "john doe"
-}
+"username": "john doe"
 ```
 
 example response
 ```
-{
-	"Message": "Your secret key is voEEM7.6n3hB22eH note it down and do not lose it, otherwise you will lose access to further account actions (your previous mail will be accessible on your local device still)"
-}
+"Message": "Your secret key is voEEM7.6n3hB22eH note it down and do not lose it, otherwise you will lose access to further account actions (your previous mail will be accessible on your local device still)"
 ```
 
 ### POST `{endpoint}/sendmail`
 
 example body
 ```
-{
-	"mail": {
-			"title": "important discussions",
-			"contents": "what's up"
-	},
-	"sender": "john doe",
-	"assignee": "jane doe",
-	"secretKey": "voEEM7.6n3hB22eH"
-}
+"mail": {
+        "title": "important discussions",
+        "contents": "what's up"
+},
+"sender": "john doe",
+"assignee": "jane doe",
+"secretKey": "voEEM7.6n3hB22eH"
 ```
 
 example response
@@ -47,20 +41,18 @@ example response
 
 example body
 ```
-{
-	"username": "jane doe",
-	"secretKey": "pretend i could be bothered to gen another key here"
-}
+"username": "jane doe",
+"secretKey": "pretend i could be bothered to gen another key here"
 ```
 
 example response
 ```
 [
-	{
-		"title": "important discussions",
-		"contents": "what's up",
-        "author": "john doe"
-	}
+{
+    "title": "important discussions",
+    "contents": "what's up",
+    "author": "john doe"
+}
 ]
 ```
 
